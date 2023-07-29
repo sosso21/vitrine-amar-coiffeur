@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Amar Coiffeur',
+    title: 'Amar Koulougli Coiffeur',
     htmlAttrs: {
       lang: 'fr'
     },
@@ -11,7 +11,16 @@ export default {
       { charset: 'utf-8' },
       {name:"google-site-verification", content:"o7vE04gAoE_TPXejFD2uMlk_m3mltKl2vcrTwmE8oY4"},
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Salon de coiffure pour homme. Soins capillaire ; cheveux et barbe ,Accueil chaleureux et travaille professionnel.' }
+      { hid: 'description', name: 'description', content: 'Salon de coiffure pour homme. Soins capillaire ; cheveux et barbe ,Accueil chaleureux et travaille professionnel.' },
+      { property: 'og:title', content: 'Amar Koulougli Coiffeur' },
+      { property: 'og:description', content: 'Salon de coiffure pour homme. Soins capillaire ; cheveux et barbe ,Accueil chaleureux et travaille professionnel.' },
+      { property: 'og:image', content: '/static/hend.jpg' },
+      { property: 'og:url', content: 'https://example.com' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:title', content: 'Amar Koulougli Coiffeur' },
+      { name: 'twitter:description', content: 'Salon de coiffure pour homme. Soins capillaire ; cheveux et barbe ,Accueil chaleureux et travaille professionnel.' },
+      { name: 'twitter:image', content: '/static/hend.jpg' },
+      { name: 'twitter:url', content: 'https://example.com' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
